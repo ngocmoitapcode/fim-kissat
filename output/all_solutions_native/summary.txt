@@ -1,0 +1,49 @@
+=================================================================
+Number of items: 5
+Number of transactions: 16
+Minimum support: 5
+Item set found: {3, 5}
+Valid transactions: {4, 5, 8, 15, 16}
+=================================================================
+=================================================================
+Number of items: 5
+Number of transactions: 16
+Minimum support: 5
+Item set found: {5}
+Valid transactions: {4, 5, 8, 15, 16}
+=================================================================
+=================================================================
+Number of items: 5
+Number of transactions: 16
+Minimum support: 5
+Item set found: set()
+Valid transactions: {4, 5, 8, 15, 16}
+=================================================================
+=================================================================
+Number of items: 5
+Number of transactions: 16
+Minimum support: 5
+Item set found: {1}
+Valid transactions: {2, 3, 4, 10, 15}
+=================================================================
+=================================================================
+Number of items: 5
+Number of transactions: 16
+Minimum support: 5
+Item set found: {2}
+Valid transactions: {5, 6, 7, 12, 16}
+=================================================================
+=================================================================
+Number of items: 5
+Number of transactions: 16
+Minimum support: 5
+Item set found: {3}
+Valid transactions: {4, 5, 12, 15, 16}
+=================================================================
+=================================================================
+Number of items: 5
+Number of transactions: 16
+Minimum support: 5
+Item set found: {4}
+Valid transactions: {5, 7, 8, 12, 15}
+=================================================================

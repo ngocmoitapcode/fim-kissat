@@ -1,0 +1,71 @@
+c ---- [ banner ] ------------------------------------------------------------
+c
+c Kissat SAT Solver
+c 
+c Copyright (c) 2021-2023 Armin Biere University of Freiburg
+c Copyright (c) 2019-2021 Armin Biere Johannes Kepler University Linz
+c 
+c Version 3.1.1 71caafb4d182ced9f76cef45b00f37cc598f2a37
+c gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0 -W -Wall -O3 -DNDEBUG
+c Fri 08 Mar 2024 11:06:21 PM +07 Linux ngocpb-HP-Laptop-15s-fq1xxx 5.15.0-100-generic x86_64
+c
+c ---- [ parsing ] -----------------------------------------------------------
+c
+c opened and reading DIMACS file:
+c
+c   cnf/output-sq.cnf
+c
+c parsed 'p cnf 6279 13274' header
+c closing input after reading 185622 bytes (181 KB)
+c finished parsing after 0.00 seconds
+c
+c ---- [ solving ] -----------------------------------------------------------
+c
+c  seconds switched conflicts  irredundant variables
+c         MB reductions redundant     trail    remaining
+c          level restarts    binary      glue
+c
+c *  0.00  4 0 0 0  0   0   0 7164 5930 0% 0 6158 99%
+c {  0.00  4 0 0 0  0   0   0 7164 5930 0% 0 6158 99%
+c i  0.01  5 20 0 0  5 229 167 7172 5894 91% 6 6044 97%
+c i  0.02  5 20 0 0  5 239 171 7174 5894 89% 6 5876 94%
+c i  0.02  5 20 0 0  5 242 173 7174 5894 89% 6 5814 93%
+c }  0.02  5 20 0 0  5 244 173 7174 5894 89% 6 2212 36%
+c 0  0.02  5 20 0 0  5 244 173 7174 5894 89% 6 2212 36%
+c
+c ---- [ result ] ------------------------------------------------------------
+c
+s UNSATISFIABLE
+c
+c ---- [ profiling ] ---------------------------------------------------------
+c
+c           0.01   85.19 %  search
+c           0.01   84.88 %  focused
+c           0.00   14.22 %  parse
+c           0.00    0.00 %  simplify
+c =============================================
+c           0.02  100.00 %  total
+c
+c ---- [ statistics ] --------------------------------------------------------
+c
+c conflicts:                              244            14837.34 per second
+c decisions:                              897                3.68 per conflict
+c jumped_reasons:                       62803               26 %  propagations
+c propagations:                        241884         14708665    per second
+c queue_decisions:                        897              100 %  decision
+c random_decisions:                         0                0 %  decision
+c random_sequences:                         0                0    interval
+c restarts:                                 5               48.80 interval
+c score_decisions:                          0                0 %  decision
+c switched:                                 0                0    interval
+c vivify_checks:                            0                0    per vivify
+c vivify_units:                             0                0 %  variables
+c
+c ---- [ resources ] ---------------------------------------------------------
+c
+c maximum-resident-set-size:          4956160 bytes          5 MB
+c process-time:                                              0.02 seconds
+c
+c ---- [ shutting down ] -----------------------------------------------------
+c
+c exit 20
