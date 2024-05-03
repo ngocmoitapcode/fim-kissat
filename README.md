@@ -1,6 +1,18 @@
 # FreequentItemsetMining
-SAT Based Approach for Frequent Itemset Mining\\
-Author: Ngoc\\
+SAT Based Approach for Frequent Itemset Mining \\
+Author: Ngoc \\
+
+Pre-requisites:
+1. Down load kissat lib from https://github.com/arminbiere/kissat
+2. Follow author's instruction to build kissat
+3. Move folder kissat to this project
+
+How to solve a FIM problem with a single .cnf input file:
+1. Go to terminal
+2. Run the command ./kissat/build/kissat "+cnf_file+" --time="+str(time_out)+" > "+output_folder  +"/" + output_filename + ".txt"
+
+Or put this command in a function: os.system("./kissat/build/kissat "+cnf_file+" --time="+str(time_out)+" > "+output_folder  +"/" + output_filename + ".txt")
+
 Flow:
 1. Encode input TBDs to [0,1] mattrix
 2. Use SAT_encoding methods to encode input mattrix to a cnf file
