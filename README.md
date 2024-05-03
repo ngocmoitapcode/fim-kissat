@@ -1,7 +1,7 @@
 # FreequentItemsetMining
 SAT Based Approach for Frequent Itemset Mining  
 Author: Ngoc    
-## re-requisites:
+## Pre-requisites:
 1. Down load kissat lib from https://github.com/arminbiere/kissat
 2. Follow author's instruction to build kissat
 3. Move folder kissat to this project
