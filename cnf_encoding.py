@@ -25,7 +25,7 @@ def encode_constraint_six(all_clauses, TDB):
         for item in range(1, TDB.shape[1] + 1):
             if TDB[transaction-1][item-1] == False:
                 clause.append(item)
-    all_clauses.append(clause)
+        all_clauses.append(clause)
     return all_clauses
 
 
